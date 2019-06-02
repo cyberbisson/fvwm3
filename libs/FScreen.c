@@ -192,6 +192,8 @@ void FScreenInit(Display *dpy)
 	}
 	XRRFreeScreenResources(res);
 
+	return;
+
 single_screen:
 	m = monitor_new();
 	coord.x = 0;
